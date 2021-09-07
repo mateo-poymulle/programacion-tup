@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programacion Web</title>
 </head>
+
 <body>
-    <div>
-        <h1>
-            Bienvenidos a la materia de Programacion Web
+    <div class="navbar">
+        <a class="navbar-element" href="#">Inicio</a>
+        <a class="navbar-element" href="#">Mi Perfil</a>
+        <a class="navbar-element" href="#">Mis Cursos</a>
+
+    </div>
+
+    <div class="conteiner">
+        <h1 class="content">
+            Programacion Web
         </h1>
-        <p>
-            Estamos programando una pagina web. Esto es una etiqueta de parrafo
+        <p class="content">
+            Curso de programacion web de un cuatrimestre de duracion
         </p>
     </div>
 
-    <div>
+    <div class="contents">
+
+
         <h2>
             Contenidos
         </h2>
-        <ul>
-            <li>
-                Introduccion
-            </li>
-            <li>
-                Javascript
-            </li>
-            <li>
-                React
-            </li>
-            <li>
-                Django
-            </li>
-            <li>
-                Conceptos Avanzados
-            </li>
-        </ul>
+        <div class="row-image">
+            <img src="prog-img.jpg" alt="programacion" class="picture">
+            <p class="long-desc">En este curso se veran diversos temas vinculados con la programacion web, como por ejemplo Javascript,
+                CSS, React, Django y algunos otros conceptos avanzados</p>
+        </div>
+        <h3>Precio: $1000</h3>
     </div>
 </body>
+
 </html>
